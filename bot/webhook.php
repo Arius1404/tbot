@@ -12,8 +12,7 @@ $username = $response['message']['chat']['username'];
 if($msg=='/start'){
 	$msg = $username . ' добро пожаловать в бота! Нажмите /help для отоблажения доступных команд!';
 }elseif($msg=='/help'){
-	$msg = "/img - get image;\r\n/jpg - get jpg";
+	$msg = "/img - картинка котика; /jpg - гифка котика; /joke - шутка про котика.";
 }
 $url = 'https://api.telegram.org/bot750970720:AAGe_QVL0D9pXwtNK2Lzx8LBZtrROdSLGQE/sendMessage?chat_id='.$chat_id.'&text='.$msg;
 $responce_message = file_get_contents($url);
-file_put_contents('resp_message.txt', $responce_message);
