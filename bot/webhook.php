@@ -11,8 +11,14 @@ $msg = $response['message']['text'];
 $username = $response['message']['chat']['username'];
 if($msg=='/start'){
 	$msg = $username . ' добро пожаловать в бота! Нажмите /help для отоблажения доступных команд!';
+	$url = 'https://api.telegram.org/bot750970720:AAGe_QVL0D9pXwtNK2Lzx8LBZtrROdSLGQE/sendMessage?chat_id='.$chat_id.'&text='.$msg;
+
 }elseif($msg=='/help'){
 	$msg = "/img - картинка котика; /jpg - гифка котика; /joke - шутка про котика.";
+	$url = 'https://api.telegram.org/bot750970720:AAGe_QVL0D9pXwtNK2Lzx8LBZtrROdSLGQE/sendMessage?chat_id='.$chat_id.'&text='.$msg;
+	
+}elseif($msg=='/img'){
+	//AgADAgADbKoxGwHOoUu9LTCiTk18HZCYOQ8ABI_GrfFTSHGewhoBAAEC
+	$url = 'https://api.telegram.org/bot750970720:AAGe_QVL0D9pXwtNK2Lzx8LBZtrROdSLGQE/sendPhoto?chat_id='.$chat_id.'&photo=AgADAgADbKoxGwHOoUu9LTCiTk18HZCYOQ8ABI_GrfFTSHGewhoBAAEC';
 }
-$url = 'https://api.telegram.org/bot750970720:AAGe_QVL0D9pXwtNK2Lzx8LBZtrROdSLGQE/sendMessage?chat_id='.$chat_id.'&text='.$msg;
 $responce_message = file_get_contents($url);
