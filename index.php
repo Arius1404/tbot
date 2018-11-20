@@ -1,5 +1,7 @@
 <?php
 session_start();
+$msgs = file_get_contents('tmp/sessages_log.txt');
+echo $msgs;
 ?>
 <!doctype html>
 <html lang="en">
