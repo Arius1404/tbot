@@ -22,5 +22,11 @@ if($msg=='/start'){
 	$url = 'https://api.telegram.org/bot750970720:AAGe_QVL0D9pXwtNK2Lzx8LBZtrROdSLGQE/sendPhoto?chat_id='.$chat_id.'&photo=AgADAgADbKoxGwHOoUu9LTCiTk18HZCYOQ8ABI_GrfFTSHGewhoBAAEC';
 }elseif($msg=='/gif'){
 	$url = 'https://api.telegram.org/bot750970720:AAGe_QVL0D9pXwtNK2Lzx8LBZtrROdSLGQE/sendAnimation?chat_id='.$chat_id.'&animation=CgADAgAD-QEAAgHOoUuRaQpvDYayQwI';
+}elseif($msg=='/joke'){
+	$msg = 'Назвал свою кошку Температурой... Теперь если зовут куда-то, а идти не хочется, то говорю: "Не могу, валяюсь с Температурой..."';
+	$url = 'https://api.telegram.org/bot750970720:AAGe_QVL0D9pXwtNK2Lzx8LBZtrROdSLGQE/sendMessage?chat_id='.$chat_id.'&text='.$msg;	
+}else{
+	$msg = 'Спасибо!';
+	$url = 'https://api.telegram.org/bot750970720:AAGe_QVL0D9pXwtNK2Lzx8LBZtrROdSLGQE/sendMessage?chat_id='.$chat_id.'&text='.$msg;		
 }
 $responce_message = file_get_contents($url);
