@@ -21,6 +21,6 @@ if($msg=='/start'){
 	//AgADAgADbKoxGwHOoUu9LTCiTk18HZCYOQ8ABI_GrfFTSHGewhoBAAEC
 	$url = 'https://api.telegram.org/bot750970720:AAGe_QVL0D9pXwtNK2Lzx8LBZtrROdSLGQE/sendPhoto?chat_id='.$chat_id.'&photo=AgADAgADbKoxGwHOoUu9LTCiTk18HZCYOQ8ABI_GrfFTSHGewhoBAAEC';
 }elseif($msg=='/gif'){
-	$url = 'https://api.telegram.org/bot750970720:AAGe_QVL0D9pXwtNK2Lzx8LBZtrROdSLGQE/sendAnimation?chat_id='.$chat_id.'&animation=AAQCABOi2_QOAAT6-jK_vsmKque2AAIC';
+	$url = 'https://api.telegram.org/bot750970720:AAGe_QVL0D9pXwtNK2Lzx8LBZtrROdSLGQE/sendAnimation?chat_id='.$chat_id.'&animation=CgADAgAD-QEAAgHOoUuRaQpvDYayQwI';
 }
 $responce_message = file_get_contents($url);
