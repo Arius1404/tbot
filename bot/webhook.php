@@ -14,11 +14,13 @@ if($msg=='/start'){
 	$url = 'https://api.telegram.org/bot750970720:AAGe_QVL0D9pXwtNK2Lzx8LBZtrROdSLGQE/sendMessage?chat_id='.$chat_id.'&text='.$msg;
 
 }elseif($msg=='/help'){
-	$msg = "/img - картинка котика; /jpg - гифка котика; /joke - шутка про котика.";
+	$msg = "/img - картинка котика; /gif - гифка котика; /joke - шутка про котика.";
 	$url = 'https://api.telegram.org/bot750970720:AAGe_QVL0D9pXwtNK2Lzx8LBZtrROdSLGQE/sendMessage?chat_id='.$chat_id.'&text='.$msg;
-	
+
 }elseif($msg=='/img'){
 	//AgADAgADbKoxGwHOoUu9LTCiTk18HZCYOQ8ABI_GrfFTSHGewhoBAAEC
 	$url = 'https://api.telegram.org/bot750970720:AAGe_QVL0D9pXwtNK2Lzx8LBZtrROdSLGQE/sendPhoto?chat_id='.$chat_id.'&photo=AgADAgADbKoxGwHOoUu9LTCiTk18HZCYOQ8ABI_GrfFTSHGewhoBAAEC';
+}elseif($msg=='/gif'){
+	$url = 'https://api.telegram.org/bot750970720:AAGe_QVL0D9pXwtNK2Lzx8LBZtrROdSLGQE/sendAnimation?chat_id='.$chat_id.'&animation=AAQCABOi2_QOAAT6-jK_vsmKque2AAIC';
 }
 $responce_message = file_get_contents($url);
