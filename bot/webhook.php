@@ -14,7 +14,7 @@ if($msg=='/start'){
 	$url = 'https://api.telegram.org/bot750970720:AAGe_QVL0D9pXwtNK2Lzx8LBZtrROdSLGQE/sendMessage?chat_id='.$chat_id.'&text='.$msg;
 
 }elseif($msg=='/help'){
-	$msg = "/img - картинка котика; \n/gif - гифка котика; \n/joke - шутка про котика; \n/getHabrArticles";
+	$msg = "/img - картинка котика; \n /gif - гифка котика; \n /joke - шутка про котика; \n /getHabrArticles";
 	$url = 'https://api.telegram.org/bot750970720:AAGe_QVL0D9pXwtNK2Lzx8LBZtrROdSLGQE/sendMessage?chat_id='.$chat_id.'&text='.$msg;
 }elseif($msg=='/img'){
 	//AgADAgADbKoxGwHOoUu9LTCiTk18HZCYOQ8ABI_GrfFTSHGewhoBAAEC
