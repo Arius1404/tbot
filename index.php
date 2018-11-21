@@ -1,7 +1,6 @@
 <?php
 session_start();
-$msgs = file_get_contents('tmp/sessages_log.txt');
-echo $msgs;
+if(isset($_GET['session_destroy'])) unset($_SESSION['user']);
 ?>
 <!doctype html>
 <html lang="en">

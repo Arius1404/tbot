@@ -1,5 +1,11 @@
 <?php
-if(isset($_POST['register'])){
+if(isset($_SESSION['user'])){//если есть сессия, форма не отображается
+  echo '<h1 class="h3 mb-3 mt-3 font-weight-normal text-primary">Вы уже зашли в сессию!</h1>';
+  echo '<a class="btn btn-secondary text-center" href="?session_destroy=1">Выйти из сессии</a>';
+  exit;
+}
+
+if(isset($_POST['register'])){//если нажата кнопка
   $file = file_get_contents('tmp/registr_users.txt');//взяли файл с зарегистрированными пользователями
   $file_strings = explode("\r\n", $file);//разбили по строкам
   foreach ($file_strings as $file_string) { //проходимся по каждой строке
@@ -17,7 +23,8 @@ if(isset($_POST['register'])){
     <div class="container">
       <div class="row justify-content-center">
     <form class="form-signin" action="" method="post">
-      <h1 class="h3 mb-3 mt-3 font-weight-normal text-primary">Зарегистрируйтесь</h1>
+            <h1 class="h3 mb-3 mt-3 font-weight-normal text-primary">Зарегистрируйтесь</h1>
+      <h4 class="text-center text-primary">Введите в login ваш username из telegram!</h4>
       <input name="name" type="" id="inputEmail" class="form-control mt-2" placeholder="Login" required autofocus>
       <input name="password" type="password" id="inputPassword" class="form-control mt-2" placeholder="Password" required>
       <button name="register" class="btn btn-lg btn-primary btn-block mt-4" type="submit">Registration</button>
