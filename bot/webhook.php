@@ -15,7 +15,7 @@ if($msg=='/start'){
 
 }elseif($msg=='/help'){
 	$msg = "/img - картинка котика; \n /gif - гифка котика; \n /joke - шутка про котика; \n /getHabrArticles";
-	$url = 'https://api.telegram.org/bot750970720:AAGe_QVL0D9pXwtNK2Lzx8LBZtrROdSLGQE/sendMessage?chat_id='.$chat_id.'&text='.$msg;
+	$url = 'https://api.telegram.org/bot750970720:AAGe_QVL0D9pXwtNK2Lzx8LBZtrROdSLGQE/sendMessage?chat_id='.$chat_id.'&text='.urlencode($msg);
 }elseif($msg=='/img'){
 	//AgADAgADbKoxGwHOoUu9LTCiTk18HZCYOQ8ABI_GrfFTSHGewhoBAAEC
 	$url = 'https://api.telegram.org/bot750970720:AAGe_QVL0D9pXwtNK2Lzx8LBZtrROdSLGQE/sendPhoto?chat_id='.$chat_id.'&photo=AgADAgADbKoxGwHOoUu9LTCiTk18HZCYOQ8ABI_GrfFTSHGewhoBAAEC';
@@ -33,7 +33,7 @@ if($msg=='/start'){
 	for ($i=0; $i < 10 ; $i++) { 
 		$text .= '->' . $matches[4][$i]. ' ' . $matches[2][$i] . "\n";
 	}
-	$url = 'https://api.telegram.org/bot750970720:AAGe_QVL0D9pXwtNK2Lzx8LBZtrROdSLGQE/sendMessage?chat_id='.$chat_id.'&text='.$text;
+	$url = 'https://api.telegram.org/bot750970720:AAGe_QVL0D9pXwtNK2Lzx8LBZtrROdSLGQE/sendMessage?chat_id='.$chat_id.'&text='.urlencode($text);
 }else{
 	$msg = 'Спасибо за сообщение!';
 	$url = 'https://api.telegram.org/bot750970720:AAGe_QVL0D9pXwtNK2Lzx8LBZtrROdSLGQE/sendMessage?chat_id='.$chat_id.'&text='.$msg;		
