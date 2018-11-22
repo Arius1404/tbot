@@ -18,7 +18,7 @@ foreach ($ar_messages as $message_json) {
 <div class="container">
 	<h1 class="h3 mb-3 mt-3 font-weight-normal text-primary text-center">Главная</h1>	
 	<div class="row">
-		<a href="https://t.me/sitehelper_bot" class="btn btn-primary btn-lg btn-block">Перейти в телеграм</a>
+		<a href="https://web.tlgrm.eu/#/im?p=@Sitehelper_Bot" class="btn btn-primary btn-lg btn-block">Перейти в телеграм</a>
 		<table class="table">
 			<tr><th>Сообщения:</th></tr>
 			<?php foreach ($ar as $message) {
