@@ -18,7 +18,7 @@ if(isset($_GET['session_destroy'])) unset($_SESSION['user']);
   <style>
     body{
       background-image: url('img/nicolas-j-leclercq-1181662-unsplash.jpg');
-       background-size: auto;
+       background-size: cover;
     }
   </style>
     <!-- Custom styles for this template -->
