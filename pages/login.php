@@ -14,7 +14,8 @@ if(isset($_SESSION['user'])){//если есть сессия, форма не �
     $pass_md5 = $data_string[1];
     if($name == trim($_POST['name']) && $pass_md5 == md5(trim($_POST['password']))){
       $_SESSION['user'] = $name;
-      echo '<h1 class="h3 mb-3 mt-3 font-weight-normal text-success">Поздравляем с авторизацией'.$_SESSION['user'].'!</h1>';
+      echo '<h1 class="h3 mb-3 mt-3 font-weight-normal text-success">Поздравляем с авторизацией, '.$_SESSION['user'].'!</h1>';
+      exit;
     } 
     }
     if(!isset($_SESSION['user']))  echo '<h1 class="h3 mb-3 mt-3 font-weight-normal text-danger">Неправильный логин или пароль!</h1>';
