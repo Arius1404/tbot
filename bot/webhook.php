@@ -10,11 +10,11 @@ $chat_id = $response['message']['chat']['id'];
 $msg = $response['message']['text'];
 $username = $response['message']['chat']['username'];
 if($msg=='/start'){
-	$msg = $username . ' добро пожаловать в бота! Нажмите /help для отоблажения доступных команд!';
+	$msg = $username . ' Вас приветствует Site Helper Bot! Введите /help для отображения доступных команд!';
 	$url = 'https://api.telegram.org/bot750970720:AAGe_QVL0D9pXwtNK2Lzx8LBZtrROdSLGQE/sendMessage?chat_id='.$chat_id.'&text='.$msg;
 
 }elseif($msg=='/help'){
-	$msg = "/img - картинка котика; \n /gif - гифка котика; \n /joke - шутка про котика; \n /getHabrArticles - 10 статей из хабра";
+	$msg = "/img - получить картинку; \n /gif - получить гифку; \n /joke - получить шутку; \n /getHabrArticles - Интересные статьи";
 	$url = 'https://api.telegram.org/bot750970720:AAGe_QVL0D9pXwtNK2Lzx8LBZtrROdSLGQE/sendMessage?chat_id='.$chat_id.'&text='.urlencode($msg);
 }elseif($msg=='/img'){
 	//AgADAgADbKoxGwHOoUu9LTCiTk18HZCYOQ8ABI_GrfFTSHGewhoBAAEC
