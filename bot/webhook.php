@@ -10,7 +10,7 @@ $chat_id = $response['message']['chat']['id'];
 $msg = $response['message']['text'];
 $username = $response['message']['chat']['username'];
 if($msg=='/start'){
-	$msg = $username . ' Вас приветствует Site Helper Bot! Введите /help для отображения доступных команд!';
+	$msg = $username . ' вас приветствует Site Helper Bot! Введите /help для отображения доступных команд!';
 	$url = 'https://api.telegram.org/bot750970720:AAGe_QVL0D9pXwtNK2Lzx8LBZtrROdSLGQE/sendMessage?chat_id='.$chat_id.'&text='.$msg;
 
 }elseif($msg=='/help'){
