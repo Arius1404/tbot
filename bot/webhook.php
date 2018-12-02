@@ -25,8 +25,8 @@ if($msg=='/start'){
 }elseif($msg=='/gif'){
 	$url = 'https://api.telegram.org/bot750970720:AAGe_QVL0D9pXwtNK2Lzx8LBZtrROdSLGQE/sendAnimation?chat_id='.$chat_id.'&animation='.$ar_data['gif'][rand(1,7)];
 }elseif($msg=='/joke'){
-	$msg = 'Назвал свою кошку Температурой... Теперь если зовут куда-то, а идти не хочется, то говорю: "Не могу, валяюсь с Температурой..."';
-	$url = 'https://api.telegram.org/bot750970720:AAGe_QVL0D9pXwtNK2Lzx8LBZtrROdSLGQE/sendMessage?chat_id='.$chat_id.'&text='.$msg;	
+	$msg = $ar_data['joke'][rand(1,8)];
+	$url = 'https://api.telegram.org/bot750970720:AAGe_QVL0D9pXwtNK2Lzx8LBZtrROdSLGQE/sendMessage?chat_id='.$chat_id.'&text='.urlencode($msg);	
 }elseif($msg=='/getHabrArticles'){
 	$html = file_get_contents('https://habr.com/');
 	preg_match_all('/post__title"(.*)a href="(.*)"(.*)>(.*)</Uis', $html, $matches); //2 4
