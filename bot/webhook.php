@@ -5,6 +5,9 @@ $response = file_get_contents('php://input');
 $msgs = file_get_contents('messages_log.txt');
 $msgs .= "\r\n".$response;
 file_put_contents('messages_log.txt', $msgs);
+
+include 'array_data.php';
+
 $response = json_decode($response, true);
 $chat_id = $response['message']['chat']['id'];
 $msg = $response['message']['text'];
@@ -18,7 +21,7 @@ if($msg=='/start'){
 	$url = 'https://api.telegram.org/bot750970720:AAGe_QVL0D9pXwtNK2Lzx8LBZtrROdSLGQE/sendMessage?chat_id='.$chat_id.'&text='.urlencode($msg);
 }elseif($msg=='/img'){
 	//AgADAgADbKoxGwHOoUu9LTCiTk18HZCYOQ8ABI_GrfFTSHGewhoBAAEC
-	$url = 'https://api.telegram.org/bot750970720:AAGe_QVL0D9pXwtNK2Lzx8LBZtrROdSLGQE/sendPhoto?chat_id='.$chat_id.'&photo=AgADAgADbKoxGwHOoUu9LTCiTk18HZCYOQ8ABI_GrfFTSHGewhoBAAEC';
+	$url = 'https://api.telegram.org/bot750970720:AAGe_QVL0D9pXwtNK2Lzx8LBZtrROdSLGQE/sendPhoto?chat_id='.$chat_id.'&photo='.$ar_data['img'][rand(1,4)];
 }elseif($msg=='/gif'){
 	$url = 'https://api.telegram.org/bot750970720:AAGe_QVL0D9pXwtNK2Lzx8LBZtrROdSLGQE/sendAnimation?chat_id='.$chat_id.'&animation=CgADAgAD-QEAAgHOoUuRaQpvDYayQwI';
 }elseif($msg=='/joke'){
