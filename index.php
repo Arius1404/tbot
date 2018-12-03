@@ -17,7 +17,7 @@ if(isset($_GET['session_destroy'])) unset($_SESSION['user']);
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
   <style>
     body{
-      background-image: url('img/nicolas-j-leclercq-1181662-unsplash.jpg');
+      background-image: url('img/nicole-honeywill-1195326-unsplash.jpg');
        background-size: cover;
     }
   </style>
