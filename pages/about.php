@@ -3,12 +3,12 @@
 	<div class="row">
 		<h2 style="margin-left:40px; text-align:center"><span style="font-family:verdana,geneva,sans-serif">Данный сайт был разработан студентами группы 716 в качестве курсовой работы по предмету &quot;Технологии и методы программирования&quot;</span></h2>
 
-<p>&nbsp;</p>
+
 
 <ul>
-	<li><span style="font-family:verdana,geneva,sans-serif">Разработчик: Тахтеев Илья;</span></li>
-	<li><span style="font-family:verdana,geneva,sans-serif">Документатор: Неверова Любовь;</span></li>
-	<li><span style="font-family:verdana,geneva,sans-serif">Тестировщик: Глазырина Лариса</span></li>
+ <li><span style="font-family:verdana,geneva,sans-serif">Разработчик: Тахтеев Илья;</span></li>
+ <li><span style="font-family:verdana,geneva,sans-serif">Документатор: Неверова Любовь;</span></li>
+ <li><span style="font-family:verdana,geneva,sans-serif">Тестировщик: Глазырина Лариса</span></li>
 </ul>
 
 <p>&nbsp;</p>
@@ -25,21 +25,21 @@
 
 <hr />
 <ul>
- <li style="text-align:justify"><span style="font-family:verdana,geneva,sans-serif"><strong>Почему в качестве платформы для бота был выбран именно Telegram, ведь есть множество других платформ?</strong></span></li>
+ <li><span style="font-family:verdana,geneva,sans-serif"><strong>Почему в качестве платформы для бота был выбран именно Telegram, ведь есть множество других платформ?</strong></span></li>
 </ul>
 
 <p style="margin-left:40px; text-align:justify"><span style="font-family:verdana,geneva,sans-serif">Действительно, бот может быть создан и запрограммирован на базе практически любой современной социальной сети (ВКонтакте, Facebook и т.д.), однако, на сегодняшний день, боты, созданные на платформе Telegram представляют наибольший интерес так как они имеют намного более разнообразный пользовательский интерфейс.</span></p>
 
 <hr />
 <ul>
- <li style="text-align:justify"><span style="font-family:verdana,geneva,sans-serif"><strong>Насколько популярна данная технология?</strong></span></li>
+ <li><span style="font-family:verdana,geneva,sans-serif"><strong>Насколько популярна данная технология?</strong></span></li>
 </ul>
 
 <p style="margin-left:40px; text-align:justify"><span style="font-family:verdana,geneva,sans-serif">На данный момент практически любая организация старается внедрить такого помощника в свою инфраструктуру, так как бот может помочь автоматизировать некоторые процессы, такие как переписка с клиентами, серфинг интернета и т.д. По прогнозам портала <a href="https://www.businessinsider.com/">Business Insider</a> уже к 2020 году 80% компаний будет пользоваться чат-ботами.</span></p>
 
 <hr />
 <ul>
- <li style="text-align:justify"><span style="font-family:verdana,geneva,sans-serif"><strong>Могут ли боты украсть мою переписку в Telegram?</strong></span></li>
+ <li><span style="font-family:verdana,geneva,sans-serif"><strong>Могут ли боты украсть мою переписку в Telegram?</strong></span></li>
 </ul>
 
 <p style="margin-left:40px; text-align:justify"><span style="font-family:verdana,geneva,sans-serif">Нет, при использовании чат - бота можно не бояться за свою переписку. Несмотря на то, что реализованы они на одной платформе с мессенджером Telegram, боты не могут сделать ничего плохого, так как по своей сути это те же аккаунты пользователей, только управляются алгоритмически.</span></p>
