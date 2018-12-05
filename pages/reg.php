@@ -10,7 +10,7 @@ if(isset($_POST['register'])){//если нажата кнопка
   $file_strings = explode("\r\n", $file);//разбили по строкам
   $login = trim($_POST['name']);
   if(strlen($login)<5) {
-    echo '<h1 class="h3 mb-3 mt-3 font-weight-normal text-danger">Длинна должна быть не меньше 5 символов!</h1>';
+    echo '<h1 class="h3 mb-3 mt-3 font-weight-normal text-danger">Длина логина должна быть не меньше 5 символов!</h1>';
     exit;
   }
 
