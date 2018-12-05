@@ -8,15 +8,27 @@ if(isset($_SESSION['user'])){//если есть сессия, форма не �
 if(isset($_POST['register'])){//если нажата кнопка
   $file = file_get_contents('tmp/registr_users.txt');//взяли файл с зарегистрированными пользователями
   $file_strings = explode("\r\n", $file);//разбили по строкам
+  $login = trim($_POST['name']);
+  if(strlen($login)<5) {
+    echo '<h1 class="h3 mb-3 mt-3 font-weight-normal text-danger">Длинна должна быть не меньше 5 символов!</h1>';
+    exit;
+  }
+
+  if(!preg_match("#^[aA-zZ0-9_]+$#",$login)) {
+   echo '<h1 class="h3 mb-3 mt-3 font-weight-normal text-danger">Разрешаются только символы a-z 0-9 и _</h1>';
+   exit;
+  }
+  $login = htmlentities($login);
+
   foreach ($file_strings as $file_string) { //проходимся по каждой строке
     $data_string = explode(';',$file_string); //разделяем строку на логин и пароль
-    $name = $data_string[0]; 
+    $name = $data_string[0];
     $pass_md5 = $data_string[1];
-    if($name == trim($_POST['name'])) exit('такой логин уже есть'); //$_SESSION['user'] = $name; && $pass_md5 == /*md5*/(trim($_POST['password']))
+    if($name == $login) exit('такой логин уже есть'); //$_SESSION['user'] = $name; && $pass_md5 == /*md5*/(trim($_POST['password']))
   }
-  $file .= "\r\n".trim($_POST['name']).';'.md5(trim($_POST['password']));
+  $file .= "\r\n".$login.';'.md5(trim($_POST['password']));
   file_put_contents('tmp/registr_users.txt', $file);
-  echo '<h1 class="h3 mb-3 mt-3 font-weight-normal text-success">Поздравляем с регистрацией! Теперь авторизируйтесь</h1>';
+  echo '<h1 class="h3 mb-3 mt-3 font-weight-normal text-success">Поздравляем с регистрацией, '.$login.'! Теперь авторизируйтесь</h1>';
   exit;
 }
 ?>
