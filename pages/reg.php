@@ -9,8 +9,14 @@ if(isset($_POST['register'])){//если нажата кнопка
   $file = file_get_contents('tmp/registr_users.txt');//взяли файл с зарегистрированными пользователями
   $file_strings = explode("\r\n", $file);//разбили по строкам
   $login = trim($_POST['name']);
+  $pass = trim($_POST['password']);
   if(strlen($login)<5) {
     echo '<h1 class="h3 mb-3 mt-3 font-weight-normal text-danger">Длина логина должна быть не меньше 5 символов!</h1>';
+    exit;
+  }
+
+    if(strlen($pass)<5) {
+    echo '<h1 class="h3 mb-3 mt-3 font-weight-normal text-danger">Длина пароля должна быть не меньше 5 символов!</h1>';
     exit;
   }
 
@@ -19,6 +25,7 @@ if(isset($_POST['register'])){//если нажата кнопка
    exit;
   }
   $login = htmlentities($login);
+  $pass = htmlentities($pass);
 
   foreach ($file_strings as $file_string) { //проходимся по каждой строке
     $data_string = explode(';',$file_string); //разделяем строку на логин и пароль
@@ -26,7 +33,7 @@ if(isset($_POST['register'])){//если нажата кнопка
     $pass_md5 = $data_string[1];
     if($name == $login) exit('такой логин уже есть'); //$_SESSION['user'] = $name; && $pass_md5 == /*md5*/(trim($_POST['password']))
   }
-  $file .= "\r\n".$login.';'.md5(trim($_POST['password']));
+  $file .= "\r\n".$login.';'.md5($pass);
   file_put_contents('tmp/registr_users.txt', $file);
   echo '<h1 class="h3 mb-3 mt-3 font-weight-normal text-success">Поздравляем с регистрацией, '.$login.'! Теперь авторизируйтесь</h1>';
   exit;
