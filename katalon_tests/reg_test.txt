@@ -21,9 +21,9 @@ WebUI.navigateToUrl('http://telegram-bot-kurs.herokuapp.com/')
 
 WebUI.click(findTestObject('Page_Site helper bot/a_'))
 
-WebUI.verifyTextPresent('Зарегистрируйтесь', false)
+WebUI.verifyTextPresent('Р—Р°СЂРµРіРёСЃС‚СЂРёСЂСѓР№С‚РµСЃСЊ', false)
 
-WebUI.setText(findTestObject('Object Repository/Page_Site helper bot/input_  login  username  teleg'), 'имяимя')
+WebUI.setText(findTestObject('Object Repository/Page_Site helper bot/input_  login  username  teleg'), 'РёРјСЏРёРјСЏ')
 
 WebUI.setEncryptedText(findTestObject('Object Repository/Page_Site helper bot/input_  login  username  teleg_1'), 'HeCM15nHKBI=')
 
@@ -39,7 +39,7 @@ WebUI.setEncryptedText(findTestObject('Object Repository/Page_Site helper bot/in
 
 WebUI.click(findTestObject('Object Repository/Page_Site helper bot/button_Registration'))
 
-WebUI.verifyTextPresent('5 символов', false)
+WebUI.verifyTextPresent('Р Р°Р·СЂРµС€Р°СЋС‚СЃСЏ С‚РѕР»СЊРєРѕ СЃРёРјРІРѕР»С‹', false)
 WebUI.click(findTestObject('Object Repository/Page_Site helper bot/a_'))
 
 WebUI.setText(findTestObject('Object Repository/Page_Site helper bot/input_  login  username  teleg'), 'namename')
@@ -66,7 +66,7 @@ WebUI.setEncryptedText(findTestObject('Object Repository/Page_Site helper bot/in
 
 WebUI.click(findTestObject('Object Repository/Page_Site helper bot/button_Registration'))
 
-WebUI.verifyTextPresent('такой логин уже есть', false)
+WebUI.verifyTextPresent('С‚Р°РєРѕР№ Р»РѕРіРёРЅ СѓР¶Рµ РµСЃС‚СЊ', false)
 
 WebUI.click(findTestObject('Object Repository/Page_Site helper bot/a_'))
 
@@ -88,7 +88,7 @@ WebUI.setEncryptedText(findTestObject('Object Repository/Page_Site helper bot/in
 
 WebUI.click(findTestObject('Object Repository/Page_Site helper bot/button_Registration'))
 
-WebUI.verifyTextPresent('Длина логина должна', false)
+WebUI.verifyTextPresent('Р”Р»РёРЅР° Р»РѕРіРёРЅР° РґРѕР»Р¶РЅР°', false)
 
 WebUI.click(findTestObject('Object Repository/Page_Site helper bot/a_'))
 
@@ -112,6 +112,6 @@ WebUI.setEncryptedText(findTestObject('Object Repository/Page_Site helper bot/in
 
 WebUI.click(findTestObject('Object Repository/Page_Site helper bot/button_Registration'))
 
-WebUI.verifyTextPresent('Поздравляем с регистрацией', false)
+WebUI.verifyTextPresent('РџРѕР·РґСЂР°РІР»СЏРµРј СЃ СЂРµРіРёСЃС‚СЂР°С†РёРµР№', false)
 
 WebUI.closeBrowser()
