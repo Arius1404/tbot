@@ -47,11 +47,11 @@ WebUI.setEncryptedText(findTestObject('Object Repository/Page_Site helper bot/in
 
 WebUI.click(findTestObject('Object Repository/Page_Site helper bot/button_Sign in1'))
 
-WebUI.verifyTextPresent('Поздравляем с авторизацией', false)
+WebUI.verifyTextPresent('РџРѕР·РґСЂР°РІР»СЏРµРј СЃ Р°РІС‚РѕСЂРёР·Р°С†РёРµР№', false)
 
 WebUI.click(findTestObject('Object Repository/Page_Site helper bot/about'))
 
-WebUI.verifyTextPresent('Данный сайт был разработан', false)
+WebUI.verifyTextPresent('Р”Р°РЅРЅС‹Р№ СЃР°Р№С‚ Р±С‹Р» СЂР°Р·СЂР°Р±РѕС‚Р°РЅ', false)
 
 WebUI.click(findTestObject('Object Repository/Page_Site helper bot/nope'))
 
@@ -61,4 +61,4 @@ WebUI.click(findTestObject('Object Repository/Page_Site helper bot/teleg'))
 
 WebUI.navigateToUrl('https://web.tlgrm.eu/#/login')
 
-WebUI.verifyTextPresent('Войти', false)
+WebUI.verifyTextPresent('Р’РѕР№С‚Рё', false)
