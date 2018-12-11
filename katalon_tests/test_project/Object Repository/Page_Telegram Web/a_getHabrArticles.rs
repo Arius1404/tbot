@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_getHabrArticles</name>
+   <tag></tag>
+   <elementGuidId>fa5a3319-b650-490b-ab6f-49c5090b79de</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//html[@id='ng-app']/body/div/div[2]/div/div[2]/div[3]/div/div[3]/div/div/div/div[2]/div[2]/div[11]/div/div/div/div[2]/div/div/a[4]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>tg://bot_command?command=getHabrArticles&amp;bot=Sitehelper_Bot</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>/getHabrArticles</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;ng-app&quot;)/body[@class=&quot;non_osx non_msie is_1x&quot;]/div[@class=&quot;page_wrap&quot;]/div[@class=&quot;im_page_wrap clearfix&quot;]/div[@class=&quot;im_page_split clearfix&quot;]/div[@class=&quot;im_history_col_wrap noselect im_history_loaded&quot;]/div[@class=&quot;im_history_selected_wrap&quot;]/div[@class=&quot;im_history_col&quot;]/div[@class=&quot;im_history_wrap nano has-scrollbar active-scrollbar&quot;]/div[@class=&quot;im_history_scrollable_wrap nano-content&quot;]/div[@class=&quot;im_history_scrollable&quot;]/div[@class=&quot;im_history im_history_selectable&quot;]/div[@class=&quot;im_history_messages&quot;]/div[@class=&quot;im_history_messages_peer&quot;]/div[@class=&quot;im_history_message_wrap&quot;]/div[@class=&quot;im_message_outer_wrap hasselect&quot;]/div[@class=&quot;im_message_wrap clearfix&quot;]/div[@class=&quot;im_content_message_wrap im_message_in&quot;]/div[@class=&quot;im_message_body&quot;]/div[1]/div[@class=&quot;im_message_text&quot;]/a[4]</value>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <value>//html[@id='ng-app']/body/div/div[2]/div/div[2]/div[3]/div/div[3]/div/div/div/div[2]/div[2]/div[4]/div/div/div/div[2]/div/div/a[4]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <value>//a[contains(text(),'/getHabrArticles')]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='/joke'])[1]/following::a[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='/gif'])[1]/following::a[2]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Lubow'])[3]/preceding::a[2]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <value>//a[contains(@href, 'tg://bot_command?command=getHabrArticles&amp;bot=Sitehelper_Bot')]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <value>//div[2]/div/div/a[4]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <value>//html[@id='ng-app']/body/div/div[2]/div/div[2]/div[3]/div/div[3]/div/div/div/div[2]/div[2]/div[11]/div/div/div/div[2]/div/div/a[4]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <value>(//a[contains(text(),'/getHabrArticles')])[3]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='/joke'])[4]/following::a[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='/gif'])[3]/following::a[2]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Larisa'])[7]/preceding::a[3]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <value>(//a[contains(@href, 'tg://bot_command?command=getHabrArticles&amp;bot=Sitehelper_Bot')])[3]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <value>//div[11]/div/div/div/div[2]/div/div/a[4]</value>
+   </webElementXpaths>
+</WebElementEntity>

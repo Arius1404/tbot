@@ -1,0 +1,52 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+TestSuite,Chrome 70.0.3538.110,,2018-12-08 01:33:39,2018-12-08 01:37:26,"3m - 46,726s",PASSED
+,,,,,,
+Test Cases/Reg,Chrome 70.0.3538.110,registration test,2018-12-08 01:33:40,2018-12-08 01:37:26,"3m - 45,559s",PASSED
+"openBrowser("""")",Chrome 70.0.3538.110,,2018-12-08 01:33:42,2018-12-08 01:33:56,"13,881s",PASSED
+"navigateToUrl(""http://telegram-bot-kurs.herokuapp.com/"")",Chrome 70.0.3538.110,,2018-12-08 01:33:56,2018-12-08 01:36:26,"2m - 29,505s",PASSED
+"click(findTestObject(""Page_Site helper bot/a_""))",Chrome 70.0.3538.110,,2018-12-08 01:36:26,2018-12-08 01:36:49,"23,388s",PASSED
+"verifyTextPresent(""Зарегистрируйтесь"", false)",Chrome 70.0.3538.110,,2018-12-08 01:36:49,2018-12-08 01:36:50,"0,379s",PASSED
+"setText(findTestObject(""Object Repository/Page_Site helper bot/input_  login  username  teleg""), ""имяимя"")",Chrome 70.0.3538.110,,2018-12-08 01:36:50,2018-12-08 01:36:50,"0,521s",PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_Site helper bot/input_  login  username  teleg_1""), ""HeCM15nHKBI="")",Chrome 70.0.3538.110,,2018-12-08 01:36:50,2018-12-08 01:36:51,"0,507s",PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_Site helper bot/input_  login  username  teleg_2""), ""lnBUteI2ioQ="")",Chrome 70.0.3538.110,,2018-12-08 01:36:51,2018-12-08 01:36:51,"0,175s",PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_Site helper bot/input_  login  username  teleg_3""), ""tzH6RvlfSTg="")",Chrome 70.0.3538.110,,2018-12-08 01:36:51,2018-12-08 01:36:51,"0,214s",PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_Site helper bot/input_  login  username  teleg_4""), ""4nvbrPglk7k="")",Chrome 70.0.3538.110,,2018-12-08 01:36:51,2018-12-08 01:36:51,"0,201s",PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_Site helper bot/input_  login  username  teleg_5""), ""iGDxf8hSRT4="")",Chrome 70.0.3538.110,,2018-12-08 01:36:51,2018-12-08 01:36:51,"0,204s",PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_Site helper bot/input_  login  username  teleg_6""), ""iGDxf8hSRT4="")",Chrome 70.0.3538.110,,2018-12-08 01:36:51,2018-12-08 01:36:52,"0,241s",PASSED
+"click(findTestObject(""Object Repository/Page_Site helper bot/button_Registration""))",Chrome 70.0.3538.110,,2018-12-08 01:36:52,2018-12-08 01:36:52,"0,725s",PASSED
+"verifyTextPresent(""a-z 0-9"", false)",Chrome 70.0.3538.110,,2018-12-08 01:36:52,2018-12-08 01:36:53,"0,141s",PASSED
+"click(findTestObject(""Object Repository/Page_Site helper bot/a_""))",Chrome 70.0.3538.110,,2018-12-08 01:36:53,2018-12-08 01:36:53,"0,661s",PASSED
+"setText(findTestObject(""Object Repository/Page_Site helper bot/input_  login  username  teleg""), ""namename"")",Chrome 70.0.3538.110,,2018-12-08 01:36:53,2018-12-08 01:36:54,"0,432s",PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_Site helper bot/input_  login  username  teleg_7""), ""HeCM15nHKBI="")",Chrome 70.0.3538.110,,2018-12-08 01:36:54,2018-12-08 01:36:54,"0,224s",PASSED
+"click(findTestObject(""Object Repository/Page_Site helper bot/button_Registration""))",Chrome 70.0.3538.110,,2018-12-08 01:36:54,2018-12-08 01:36:54,"0,493s",PASSED
+"click(findTestObject(""Object Repository/Page_Site helper bot/a_""))",Chrome 70.0.3538.110,,2018-12-08 01:36:54,2018-12-08 01:36:55,"0,497s",PASSED
+"setText(findTestObject(""Object Repository/Page_Site helper bot/input_  login  username  teleg""), ""namename"")",Chrome 70.0.3538.110,,2018-12-08 01:36:55,2018-12-08 01:36:55,"0,436s",PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_Site helper bot/input_  login  username  teleg_7""), ""HeCM15nHKBI="")",Chrome 70.0.3538.110,,2018-12-08 01:36:55,2018-12-08 01:36:55,"0,187s",PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_Site helper bot/input_  login  username  teleg_8""), ""lnBUteI2ioQ="")",Chrome 70.0.3538.110,,2018-12-08 01:36:55,2018-12-08 01:36:56,"0,351s",PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_Site helper bot/input_  login  username  teleg_9""), ""tzH6RvlfSTg="")",Chrome 70.0.3538.110,,2018-12-08 01:36:56,2018-12-08 01:36:56,"0,172s",PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_Site helper bot/input_  login  username  teleg_10""), ""4nvbrPglk7k="")",Chrome 70.0.3538.110,,2018-12-08 01:36:56,2018-12-08 01:36:56,"0,168s",PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_Site helper bot/input_  login  username  teleg_11""), ""iGDxf8hSRT4="")",Chrome 70.0.3538.110,,2018-12-08 01:36:56,2018-12-08 01:36:56,"0,176s",PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_Site helper bot/input_  login  username  teleg_12""), ""iGDxf8hSRT4="")",Chrome 70.0.3538.110,,2018-12-08 01:36:56,2018-12-08 01:36:57,"0,151s",PASSED
+"click(findTestObject(""Object Repository/Page_Site helper bot/button_Registration""))",Chrome 70.0.3538.110,,2018-12-08 01:36:57,2018-12-08 01:37:18,"21,878s",PASSED
+"verifyTextPresent(""такой логин уже есть"", false)",Chrome 70.0.3538.110,,2018-12-08 01:37:18,2018-12-08 01:37:19,"0,129s",PASSED
+"click(findTestObject(""Object Repository/Page_Site helper bot/a_""))",Chrome 70.0.3538.110,,2018-12-08 01:37:19,2018-12-08 01:37:19,"0,531s",PASSED
+"setText(findTestObject(""Object Repository/Page_Site helper bot/input_  login  username  teleg""), ""nam"")",Chrome 70.0.3538.110,,2018-12-08 01:37:19,2018-12-08 01:37:19,"0,410s",PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_Site helper bot/input_  login  username  teleg_7""), ""HeCM15nHKBI="")",Chrome 70.0.3538.110,,2018-12-08 01:37:19,2018-12-08 01:37:20,"0,184s",PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_Site helper bot/input_  login  username  teleg_8""), ""lnBUteI2ioQ="")",Chrome 70.0.3538.110,,2018-12-08 01:37:20,2018-12-08 01:37:20,"0,145s",PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_Site helper bot/input_  login  username  teleg_9""), ""tzH6RvlfSTg="")",Chrome 70.0.3538.110,,2018-12-08 01:37:20,2018-12-08 01:37:20,"0,147s",PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_Site helper bot/input_  login  username  teleg_10""), ""4nvbrPglk7k="")",Chrome 70.0.3538.110,,2018-12-08 01:37:20,2018-12-08 01:37:20,"0,152s",PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_Site helper bot/input_  login  username  teleg_11""), ""iGDxf8hSRT4="")",Chrome 70.0.3538.110,,2018-12-08 01:37:20,2018-12-08 01:37:20,"0,144s",PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_Site helper bot/input_  login  username  teleg_12""), ""iGDxf8hSRT4="")",Chrome 70.0.3538.110,,2018-12-08 01:37:20,2018-12-08 01:37:20,"0,152s",PASSED
+"click(findTestObject(""Object Repository/Page_Site helper bot/button_Registration""))",Chrome 70.0.3538.110,,2018-12-08 01:37:20,2018-12-08 01:37:21,"0,566s",PASSED
+"verifyTextPresent(""Длина логина должна"", false)",Chrome 70.0.3538.110,,2018-12-08 01:37:21,2018-12-08 01:37:21,"0,088s",PASSED
+"click(findTestObject(""Object Repository/Page_Site helper bot/a_""))",Chrome 70.0.3538.110,,2018-12-08 01:37:21,2018-12-08 01:37:22,"0,927s",PASSED
+"setText(findTestObject(""Object Repository/Page_Site helper bot/input_  login  username  teleg""), RandomStringUtils.randomNumeric(5))",Chrome 70.0.3538.110,,2018-12-08 01:37:22,2018-12-08 01:37:22,"0,440s",PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_Site helper bot/input_  login  username  teleg_13""), ""HeCM15nHKBI="")",Chrome 70.0.3538.110,,2018-12-08 01:37:22,2018-12-08 01:37:23,"0,339s",PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_Site helper bot/input_  login  username  teleg_14""), ""lnBUteI2ioQ="")",Chrome 70.0.3538.110,,2018-12-08 01:37:23,2018-12-08 01:37:23,"0,160s",PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_Site helper bot/input_  login  username  teleg_15""), ""tzH6RvlfSTg="")",Chrome 70.0.3538.110,,2018-12-08 01:37:23,2018-12-08 01:37:23,"0,194s",PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_Site helper bot/input_  login  username  teleg_16""), ""4nvbrPglk7k="")",Chrome 70.0.3538.110,,2018-12-08 01:37:23,2018-12-08 01:37:23,"0,154s",PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_Site helper bot/input_  login  username  teleg_17""), ""iGDxf8hSRT4="")",Chrome 70.0.3538.110,,2018-12-08 01:37:23,2018-12-08 01:37:23,"0,172s",PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_Site helper bot/input_  login  username  teleg_18""), ""iGDxf8hSRT4="")",Chrome 70.0.3538.110,,2018-12-08 01:37:23,2018-12-08 01:37:24,"0,140s",PASSED
+"click(findTestObject(""Object Repository/Page_Site helper bot/button_Registration""))",Chrome 70.0.3538.110,,2018-12-08 01:37:24,2018-12-08 01:37:24,"0,603s",PASSED
+"verifyTextPresent(""Поздравляем с регистрацией"", false)",Chrome 70.0.3538.110,,2018-12-08 01:37:24,2018-12-08 01:37:24,"0,103s",PASSED
+closeBrowser(),Chrome 70.0.3538.110,,2018-12-08 01:37:24,2018-12-08 01:37:26,"1,505s",PASSED

@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TestSuite" time="226" tests="1" failures="0" errors="0">
+   <testsuite name="TestSuite" tests="1" failures="0" errors="0" time="226" timestamp="2018-12-08 01:33:39" hostname="LAPTOP-597RR636$ - LAPTOP-597RR636" id="Test Suites/TestSuite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\admin\\Katalon Studio\\tests\\Reports\\TestSuite\\20181208_013321"/>
+         <property name="logFiles" value="C:\\Users\\admin\\Katalon Studio\\tests\\Reports\\TestSuite\\20181208_013321\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="LAPTOP-597RR636$ - LAPTOP-597RR636"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.9.1.2"/>
+         <property name="browser" value="Chrome 70.0.3538.110"/>
+         <property name="hostAddress" value="192.168.56.1"/>
+         <property name="sessionId" value="f9cebb96d102d02c00a0d8be0c0e7616"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Reg" classname="Test Cases/Reg" status="PASSED">
+         <system-out><![CDATA[2018-12-08 01:33:40 - [TEST_CASE][PASSED] - Test Cases/Reg: Test Cases/Reg
+
+2018-12-08 01:33:42 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2018-12-08 01:33:44 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2018-12-08 01:33:44 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2018-12-08 01:33:56 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-12-08 01:33:56 - [TEST_STEP][PASSED] - navigateToUrl("http://telegram-bot-kurs.herokuapp.com/"): Navigate to 'http://telegram-bot-kurs.herokuapp.com/' successfully
+
+2018-12-08 01:36:26 - [MESSAGE][PASSED] - Navigate to 'http://telegram-bot-kurs.herokuapp.com/' successfully
+
+2018-12-08 01:36:26 - [TEST_STEP][PASSED] - click(findTestObject("Page_Site helper bot/a_")): Object: 'Object Repository/Page_Site helper bot/a_' is clicked on
+
+2018-12-08 01:36:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Site helper bot/a_' is clicked on
+
+2018-12-08 01:36:49 - [TEST_STEP][PASSED] - verifyTextPresent("Зарегистрируйтесь", false): Text 'Зарегистрируйтесь' is present on page 
+
+2018-12-08 01:36:50 - [MESSAGE][PASSED] - Text 'Зарегистрируйтесь' is present on page 
+
+2018-12-08 01:36:50 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Site helper bot/input_  login  username  teleg"), "имяимя"): Text 'имяимя' is set on object 'Object Repository/Page_Site helper bot/input_  login  username  teleg'
+
+2018-12-08 01:36:50 - [MESSAGE][PASSED] - Text 'имяимя' is set on object 'Object Repository/Page_Site helper bot/input_  login  username  teleg'
+
+2018-12-08 01:36:50 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Site helper bot/input_  login  username  teleg_1"), "HeCM15nHKBI="): Text ****** has been set on object 'Object Repository/Page_Site helper bot/input_  login  username  teleg_1'
+
+2018-12-08 01:36:51 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Site helper bot/input_  login  username  teleg_1'
+
+2018-12-08 01:36:51 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Site helper bot/input_  login  username  teleg_2"), "lnBUteI2ioQ="): Text ****** has been set on object 'Object Repository/Page_Site helper bot/input_  login  username  teleg_2'
+
+2018-12-08 01:36:51 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Site helper bot/input_  login  username  teleg_2'
+
+2018-12-08 01:36:51 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Site helper bot/input_  login  username  teleg_3"), "tzH6RvlfSTg="): Text ****** has been set on object 'Object Repository/Page_Site helper bot/input_  login  username  teleg_3'
+
+2018-12-08 01:36:51 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Site helper bot/input_  login  username  teleg_3'
+
+2018-12-08 01:36:51 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Site helper bot/input_  login  username  teleg_4"), "4nvbrPglk7k="): Text ****** has been set on object 'Object Repository/Page_Site helper bot/input_  login  username  teleg_4'
+
+2018-12-08 01:36:51 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Site helper bot/input_  login  username  teleg_4'
+
+2018-12-08 01:36:51 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Site helper bot/input_  login  username  teleg_5"), "iGDxf8hSRT4="): Text ****** has been set on object 'Object Repository/Page_Site helper bot/input_  login  username  teleg_5'
+
+2018-12-08 01:36:51 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Site helper bot/input_  login  username  teleg_5'
+
+2018-12-08 01:36:51 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Site helper bot/input_  login  username  teleg_6"), "iGDxf8hSRT4="): Text ****** has been set on object 'Object Repository/Page_Site helper bot/input_  login  username  teleg_6'
+
+2018-12-08 01:36:52 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Site helper bot/input_  login  username  teleg_6'
+
+2018-12-08 01:36:52 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Site helper bot/button_Registration")): Object: 'Object Repository/Page_Site helper bot/button_Registration' is clicked on
+
+2018-12-08 01:36:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Site helper bot/button_Registration' is clicked on
+
+2018-12-08 01:36:52 - [TEST_STEP][PASSED] - verifyTextPresent("a-z 0-9", false): Text 'a-z 0-9' is present on page 
+
+2018-12-08 01:36:53 - [MESSAGE][PASSED] - Text 'a-z 0-9' is present on page 
+
+2018-12-08 01:36:53 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Site helper bot/a_")): Object: 'Object Repository/Page_Site helper bot/a_' is clicked on
+
+2018-12-08 01:36:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Site helper bot/a_' is clicked on
+
+2018-12-08 01:36:53 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Site helper bot/input_  login  username  teleg"), "namename"): Text 'namename' is set on object 'Object Repository/Page_Site helper bot/input_  login  username  teleg'
+
+2018-12-08 01:36:54 - [MESSAGE][PASSED] - Text 'namename' is set on object 'Object Repository/Page_Site helper bot/input_  login  username  teleg'
+
+2018-12-08 01:36:54 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Site helper bot/input_  login  username  teleg_7"), "HeCM15nHKBI="): Text ****** has been set on object 'Object Repository/Page_Site helper bot/input_  login  username  teleg_7'
+
+2018-12-08 01:36:54 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Site helper bot/input_  login  username  teleg_7'
+
+2018-12-08 01:36:54 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Site helper bot/button_Registration")): Object: 'Object Repository/Page_Site helper bot/button_Registration' is clicked on
+
+2018-12-08 01:36:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Site helper bot/button_Registration' is clicked on
+
+2018-12-08 01:36:54 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Site helper bot/a_")): Object: 'Object Repository/Page_Site helper bot/a_' is clicked on
+
+2018-12-08 01:36:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Site helper bot/a_' is clicked on
+
+2018-12-08 01:36:55 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Site helper bot/input_  login  username  teleg"), "namename"): Text 'namename' is set on object 'Object Repository/Page_Site helper bot/input_  login  username  teleg'
+
+2018-12-08 01:36:55 - [MESSAGE][PASSED] - Text 'namename' is set on object 'Object Repository/Page_Site helper bot/input_  login  username  teleg'
+
+2018-12-08 01:36:55 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Site helper bot/input_  login  username  teleg_7"), "HeCM15nHKBI="): Text ****** has been set on object 'Object Repository/Page_Site helper bot/input_  login  username  teleg_7'
+
+2018-12-08 01:36:55 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Site helper bot/input_  login  username  teleg_7'
+
+2018-12-08 01:36:55 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Site helper bot/input_  login  username  teleg_8"), "lnBUteI2ioQ="): Text ****** has been set on object 'Object Repository/Page_Site helper bot/input_  login  username  teleg_8'
+
+2018-12-08 01:36:56 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Site helper bot/input_  login  username  teleg_8'
+
+2018-12-08 01:36:56 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Site helper bot/input_  login  username  teleg_9"), "tzH6RvlfSTg="): Text ****** has been set on object 'Object Repository/Page_Site helper bot/input_  login  username  teleg_9'
+
+2018-12-08 01:36:56 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Site helper bot/input_  login  username  teleg_9'
+
+2018-12-08 01:36:56 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Site helper bot/input_  login  username  teleg_10"), "4nvbrPglk7k="): Text ****** has been set on object 'Object Repository/Page_Site helper bot/input_  login  username  teleg_10'
+
+2018-12-08 01:36:56 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Site helper bot/input_  login  username  teleg_10'
+
+2018-12-08 01:36:56 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Site helper bot/input_  login  username  teleg_11"), "iGDxf8hSRT4="): Text ****** has been set on object 'Object Repository/Page_Site helper bot/input_  login  username  teleg_11'
+
+2018-12-08 01:36:56 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Site helper bot/input_  login  username  teleg_11'
+
+2018-12-08 01:36:56 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Site helper bot/input_  login  username  teleg_12"), "iGDxf8hSRT4="): Text ****** has been set on object 'Object Repository/Page_Site helper bot/input_  login  username  teleg_12'
+
+2018-12-08 01:36:57 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Site helper bot/input_  login  username  teleg_12'
+
+2018-12-08 01:36:57 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Site helper bot/button_Registration")): Object: 'Object Repository/Page_Site helper bot/button_Registration' is clicked on
+
+2018-12-08 01:37:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Site helper bot/button_Registration' is clicked on
+
+2018-12-08 01:37:18 - [TEST_STEP][PASSED] - verifyTextPresent("такой логин уже есть", false): Text 'такой логин уже есть' is present on page 
+
+2018-12-08 01:37:19 - [MESSAGE][PASSED] - Text 'такой логин уже есть' is present on page 
+
+2018-12-08 01:37:19 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Site helper bot/a_")): Object: 'Object Repository/Page_Site helper bot/a_' is clicked on
+
+2018-12-08 01:37:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Site helper bot/a_' is clicked on
+
+2018-12-08 01:37:19 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Site helper bot/input_  login  username  teleg"), "nam"): Text 'nam' is set on object 'Object Repository/Page_Site helper bot/input_  login  username  teleg'
+
+2018-12-08 01:37:19 - [MESSAGE][PASSED] - Text 'nam' is set on object 'Object Repository/Page_Site helper bot/input_  login  username  teleg'
+
+2018-12-08 01:37:19 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Site helper bot/input_  login  username  teleg_7"), "HeCM15nHKBI="): Text ****** has been set on object 'Object Repository/Page_Site helper bot/input_  login  username  teleg_7'
+
+2018-12-08 01:37:20 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Site helper bot/input_  login  username  teleg_7'
+
+2018-12-08 01:37:20 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Site helper bot/input_  login  username  teleg_8"), "lnBUteI2ioQ="): Text ****** has been set on object 'Object Repository/Page_Site helper bot/input_  login  username  teleg_8'
+
+2018-12-08 01:37:20 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Site helper bot/input_  login  username  teleg_8'
+
+2018-12-08 01:37:20 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Site helper bot/input_  login  username  teleg_9"), "tzH6RvlfSTg="): Text ****** has been set on object 'Object Repository/Page_Site helper bot/input_  login  username  teleg_9'
+
+2018-12-08 01:37:20 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Site helper bot/input_  login  username  teleg_9'
+
+2018-12-08 01:37:20 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Site helper bot/input_  login  username  teleg_10"), "4nvbrPglk7k="): Text ****** has been set on object 'Object Repository/Page_Site helper bot/input_  login  username  teleg_10'
+
+2018-12-08 01:37:20 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Site helper bot/input_  login  username  teleg_10'
+
+2018-12-08 01:37:20 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Site helper bot/input_  login  username  teleg_11"), "iGDxf8hSRT4="): Text ****** has been set on object 'Object Repository/Page_Site helper bot/input_  login  username  teleg_11'
+
+2018-12-08 01:37:20 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Site helper bot/input_  login  username  teleg_11'
+
+2018-12-08 01:37:20 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Site helper bot/input_  login  username  teleg_12"), "iGDxf8hSRT4="): Text ****** has been set on object 'Object Repository/Page_Site helper bot/input_  login  username  teleg_12'
+
+2018-12-08 01:37:20 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Site helper bot/input_  login  username  teleg_12'
+
+2018-12-08 01:37:20 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Site helper bot/button_Registration")): Object: 'Object Repository/Page_Site helper bot/button_Registration' is clicked on
+
+2018-12-08 01:37:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Site helper bot/button_Registration' is clicked on
+
+2018-12-08 01:37:21 - [TEST_STEP][PASSED] - verifyTextPresent("Длина логина должна", false): Text 'Длина логина должна' is present on page 
+
+2018-12-08 01:37:21 - [MESSAGE][PASSED] - Text 'Длина логина должна' is present on page 
+
+2018-12-08 01:37:21 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Site helper bot/a_")): Object: 'Object Repository/Page_Site helper bot/a_' is clicked on
+
+2018-12-08 01:37:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Site helper bot/a_' is clicked on
+
+2018-12-08 01:37:22 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Site helper bot/input_  login  username  teleg"), RandomStringUtils.randomNumeric(5)): Text '42431' is set on object 'Object Repository/Page_Site helper bot/input_  login  username  teleg'
+
+2018-12-08 01:37:22 - [MESSAGE][PASSED] - Text '42431' is set on object 'Object Repository/Page_Site helper bot/input_  login  username  teleg'
+
+2018-12-08 01:37:22 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Site helper bot/input_  login  username  teleg_13"), "HeCM15nHKBI="): Text ****** has been set on object 'Object Repository/Page_Site helper bot/input_  login  username  teleg_13'
+
+2018-12-08 01:37:23 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Site helper bot/input_  login  username  teleg_13'
+
+2018-12-08 01:37:23 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Site helper bot/input_  login  username  teleg_14"), "lnBUteI2ioQ="): Text ****** has been set on object 'Object Repository/Page_Site helper bot/input_  login  username  teleg_14'
+
+2018-12-08 01:37:23 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Site helper bot/input_  login  username  teleg_14'
+
+2018-12-08 01:37:23 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Site helper bot/input_  login  username  teleg_15"), "tzH6RvlfSTg="): Text ****** has been set on object 'Object Repository/Page_Site helper bot/input_  login  username  teleg_15'
+
+2018-12-08 01:37:23 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Site helper bot/input_  login  username  teleg_15'
+
+2018-12-08 01:37:23 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Site helper bot/input_  login  username  teleg_16"), "4nvbrPglk7k="): Text ****** has been set on object 'Object Repository/Page_Site helper bot/input_  login  username  teleg_16'
+
+2018-12-08 01:37:23 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Site helper bot/input_  login  username  teleg_16'
+
+2018-12-08 01:37:23 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Site helper bot/input_  login  username  teleg_17"), "iGDxf8hSRT4="): Text ****** has been set on object 'Object Repository/Page_Site helper bot/input_  login  username  teleg_17'
+
+2018-12-08 01:37:23 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Site helper bot/input_  login  username  teleg_17'
+
+2018-12-08 01:37:23 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Site helper bot/input_  login  username  teleg_18"), "iGDxf8hSRT4="): Text ****** has been set on object 'Object Repository/Page_Site helper bot/input_  login  username  teleg_18'
+
+2018-12-08 01:37:24 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Site helper bot/input_  login  username  teleg_18'
+
+2018-12-08 01:37:24 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Site helper bot/button_Registration")): Object: 'Object Repository/Page_Site helper bot/button_Registration' is clicked on
+
+2018-12-08 01:37:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Site helper bot/button_Registration' is clicked on
+
+2018-12-08 01:37:24 - [TEST_STEP][PASSED] - verifyTextPresent("Поздравляем с регистрацией", false): Text 'Поздравляем с регистрацией' is present on page 
+
+2018-12-08 01:37:24 - [MESSAGE][PASSED] - Text 'Поздравляем с регистрацией' is present on page 
+
+2018-12-08 01:37:24 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2018-12-08 01:37:26 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-12-08 01:33:39 - [TEST_SUITE][PASSED] - TestSuite: Test Cases/Reg]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

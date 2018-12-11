@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>authorization test</description>
+   <name>authTest</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>1fb0c3bb-eb00-4126-8913-a88ed1494332</testCaseGuid>
+</TestCaseEntity>
