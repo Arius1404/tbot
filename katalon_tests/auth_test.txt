@@ -39,11 +39,11 @@ WebUI.setEncryptedText(findTestObject('Object Repository/Page_Site helper bot/in
 
 WebUI.click(findTestObject('Object Repository/Page_Site helper bot/button_Registration (1)'))
 
-WebUI.verifyTextPresent('Поздравляем с регистрацией', false)
+WebUI.verifyTextPresent('РџРѕР·РґСЂР°РІР»СЏРµРј СЃ СЂРµРіРёСЃС‚СЂР°С†РёРµР№', false)
 
 WebUI.click(findTestObject('Object Repository/Page_Site helper bot/a__1'))
 
-WebUI.verifyTextPresent('Введите данные', false)
+WebUI.verifyTextPresent('Р’РІРµРґРёС‚Рµ РґР°РЅРЅС‹Рµ', false)
 
 WebUI.setText(findTestObject('Object Repository/Page_Site helper bot/input_ _name'), name)
 
@@ -51,11 +51,11 @@ WebUI.setEncryptedText(findTestObject('Object Repository/Page_Site helper bot/in
 
 WebUI.click(findTestObject('Object Repository/Page_Site helper bot/button_Sign in'))
 
-WebUI.verifyTextPresent('Поздравляем с авторизацией', false)
+WebUI.verifyTextPresent('РџРѕР·РґСЂР°РІР»СЏРµРј СЃ Р°РІС‚РѕСЂРёР·Р°С†РёРµР№', false)
 
 WebUI.click(findTestObject('Object Repository/Page_Site helper bot/a__2'))
 
-WebUI.verifyTextPresent('Вы уже зашли в сессию!', false)
+WebUI.verifyTextPresent('Р’С‹ СѓР¶Рµ Р·Р°С€Р»Рё РІ СЃРµСЃСЃРёСЋ!', false)
 
 WebUI.verifyElementVisible(findTestObject('Object Repository/Page_Site helper bot/a_4'))
 
@@ -69,7 +69,7 @@ WebUI.setEncryptedText(findTestObject('Object Repository/Page_Site helper bot/in
 
 WebUI.click(findTestObject('Object Repository/Page_Site helper bot/button_Sign in'))
 
-WebUI.verifyTextPresent('Неправильный логин или пароль!', false)
+WebUI.verifyTextPresent('РќРµРїСЂР°РІРёР»СЊРЅС‹Р№ Р»РѕРіРёРЅ РёР»Рё РїР°СЂРѕР»СЊ!', false)
 
 WebUI.setText(findTestObject('Object Repository/Page_Site helper bot/input_ _name'), RandomStringUtils.randomNumeric(5))
 
@@ -77,4 +77,4 @@ WebUI.setEncryptedText(findTestObject('Object Repository/Page_Site helper bot/in
 
 WebUI.click(findTestObject('Object Repository/Page_Site helper bot/button_Sign in'))
 
-WebUI.verifyTextPresent('Неправильный логин или пароль!', false)
+WebUI.verifyTextPresent('РќРµРїСЂР°РІРёР»СЊРЅС‹Р№ Р»РѕРіРёРЅ РёР»Рё РїР°СЂРѕР»СЊ!', false)
